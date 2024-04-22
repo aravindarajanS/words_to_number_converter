@@ -4,18 +4,13 @@ This code repo is a demo to convert the numbers to french words.
 ## Features
 
 - Input can be a single number or list of numbers seperated by space
-- The limit of the conversion is 99999
+- The maximum number that can be converted to word is 99999
 - for the moment the output is not save to a file as it is just for demo.
 
 
 ## Installation
 
 - No special libraries are used , hence there is no requirement.txt
-- Used coverage library to check the script flow for different input
-
-```bash
-pip install coverage
-```
 
 ## Run
 
@@ -28,13 +23,6 @@ python main.py 0 1 5 10 11 15 20 21 30 35 50 51 68 70 75 99 100 101 105 111 123 
 python main.py 500
 ```
 
-for coverage please run the following commands
-
-```bash
-coverage run src/numbers_to_word.py
-
-coverage html
-```
 
 ## Data
 
@@ -44,4 +32,4 @@ There is no seperate data needed for this demo.
 
 - src/main.py -- main program that converts the number to words
 - src/unit_test.py -- run unit test on the main function
-- htmlcov/index.html -- script flow for differnt input.
+
