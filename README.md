@@ -44,4 +44,4 @@ There is no seperate data needed for this demo.
 
 - src/main.py -- main program that converts the number to words
 - src/unit_test.py -- run unit test on the main function
-- htmlcov/index.html -- script flow for differnt input.
+- htmlcov/index.html -- script flow for different input.
