@@ -1,5 +1,5 @@
 import unittest
-from numbers_to_word import number_to_french_words
+from main import number_to_french_words
 
 
 class TestFrenchWord(unittest.TestCase):
