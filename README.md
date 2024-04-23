@@ -4,7 +4,7 @@ This code repo is a demo to convert the numbers to french words.
 ## Features
 
 - Input can be a single number or list of numbers seperated by space
-- The maximum number that can be converted to word is 99999
+- The maximum number that can be converted to word is 999999
 - for the moment the output is not save to a file as it is just for demo.
 
 
